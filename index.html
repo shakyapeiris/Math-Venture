@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Math Shooter</title>
+		<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+		<script
+			type="text/javascript"
+			id="MathJax-script"
+			async
+			src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"
+		></script>
+		<link rel="stylesheet" href="styles.css" />
+		<style>
+			canvas {
+				max-height: 100%;
+			}
+		</style>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<header>
+			<h1>Math-Venture</h1>
+			<nav>
+				<ul>
+					<li><a href="#">Play</a></li>
+					<li><a href="#">About</a></li>
+				</ul>
+			</nav>
+		</header>
+		<section class="play-area">
+			<div class="game-area">
+				<div>
+					<p>Score: <span id="score"></span></p>
+					<p>HP: <span id="hp"></span></p>
+				</div>
+				<canvas></canvas>
+			</div>
+			<div class="question-area">
+				<h1 id="question"></h1>
+				<ol id="answers"></ol>
+			</div>
+		</section>
+	</body>
+	<script src="./index.js"></script>
+</html>

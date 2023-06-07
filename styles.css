@@ -1,0 +1,115 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Comfortaa', cursive;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+body {
+	background: rgb(154, 202, 230);
+	background: linear-gradient(
+		0deg,
+		rgba(154, 202, 230, 1) 0%,
+		rgba(143, 154, 212, 1) 100%
+	);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-origin: center;
+	background-attachment: fixed;
+	padding: 0 50px;
+}
+
+header {
+	width: 100%;
+	padding: 25px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: white;
+}
+
+header nav ul {
+	list-style: none;
+}
+
+header nav ul li {
+	display: inline-flex;
+	margin-right: 15px;
+}
+
+header nav ul li a {
+	color: white;
+	transition: 0.5s all ease;
+}
+
+header nav ul li a:hover {
+	opacity: 0.7;
+}
+
+header nav ul li:last-child {
+	margin-right: 0;
+}
+
+.play-area {
+	width: 100%;
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+	height: max-content;
+}
+canvas {
+	max-width: 100%;
+}
+.play-area .game-area {
+	width: 60%;
+	height: max-content;
+}
+.play-area .question-area {
+	width: 25%;
+	background: #f2e6c8;
+	height: 65vh;
+	flex-direction: column;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	-webkit-box-shadow: 10px 10px 81px -5px rgba(0, 0, 0, 0.12);
+	-moz-box-shadow: 10px 10px 81px -5px rgba(0, 0, 0, 0.12);
+	box-shadow: 10px 10px 81px -5px rgba(0, 0, 0, 0.12);
+}
+
+.play-area .question-area h1 {
+	padding: 10px;
+	text-align: center;
+}
+
+.play-area .question-area ol {
+	width: 100%;
+	list-style: none;
+	height: 80%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: column;
+}
+
+.play-area .question-area ol li {
+	width: 100%;
+	text-align: center;
+	padding: 30px 0;
+}
+
+.play-area .question-area ol li:nth-child(1) {
+	background: #8fd4cc;
+}
+.play-area .question-area ol li:nth-child(2) {
+	background: #f0c1c1;
+}
+.play-area .question-area ol li:nth-child(3) {
+	background: #bcf6be;
+}
+.play-area .question-area ol li:nth-child(4) {
+	background: #cda4d8;
+}
