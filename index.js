@@ -442,6 +442,14 @@ window.addEventListener('keydown', (e) => {
 			player.rotateLeft();
 			console.log(player);
 			break;
+		case 'ArrowLeft':
+			player.rotateLeft();
+			console.log(player);
+			break;
+		case 'ArrowRight':
+			player.rotateRight();
+			console.log(player);
+			break;
 		case 'KeyD':
 			player.rotateRight();
 			console.log(player);
