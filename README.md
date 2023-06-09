@@ -9,8 +9,7 @@ MathVenture is an exciting web-based game that combines the thrill of classic sp
 - Engaging space shooter gameplay
 - Math questions of varying difficulty levels
 - Intuitive controls for shooting and maneuvering
-- High score tracking and leaderboard
-- Stunning visuals and immersive sound effects
+- Stunning visuals
 - Playable on web browsers
 
 ## How to Play
